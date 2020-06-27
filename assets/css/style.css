@@ -240,12 +240,23 @@ html, body {
     bottom: 0;
 }
 
-.hero h1 {
-    font-size: 46px;
-    font-weight: 700;
-    margin: 0 0 15px;
-    text-transform: uppercase;
-    color: #fbfd8a;
+@media screen and (max-width: 600px) {
+    .hero h1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 50px 0 15px;
+        text-transform: uppercase;
+        color: #fbfd8a;
+    }
+}
+@media screen and (min-width: 601px) {
+    .hero h1 {
+        font-size: 46px;
+        font-weight: 700;
+        margin: 0 0 15px;
+        text-transform: uppercase;
+        color: #fbfd8a;
+    }
 }
 
 .job-title {
