@@ -232,7 +232,7 @@ html, body {
  
 @media screen and (max-width: 600px) {
     .hero { 
-        background: url(../img/phone.jpg)no-repeat center / cover; 
+        background: url(../img/phone.png)no-repeat center / cover; 
         height: 100%;
         width: 100%;
         min-height: 700px;
