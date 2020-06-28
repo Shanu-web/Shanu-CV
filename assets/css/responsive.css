@@ -402,7 +402,7 @@
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 600px) {
 	.visible-xxs {
 		display: block;
 	}
@@ -435,7 +435,7 @@
 
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
-		margin-bottom: 0px; 
+		margin-bottom: 10px; 
 	}
 
 	.section-portfolio .btn {
